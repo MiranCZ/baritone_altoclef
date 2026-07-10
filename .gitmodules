@@ -1,4 +1,4 @@
 [submodule "baritone"]
 	path = baritone
 	url = https://github.com/cabaletta/baritone.git
-    branch = 1.21.4
+    branch = 1.21.11
