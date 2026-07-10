@@ -1,7 +1,7 @@
-From 811a0ff7f1817e1c4ceef36ee31cd330e2612647 Mon Sep 17 00:00:00 2001
-From: MiranCZ <miraancz@gmail.com>
-Date: Mon, 28 Apr 2025 17:42:50 +0200
-Subject: [PATCH] Properties changes
+From 4d446061ccc46f65720788ac98f2c5bb38eb727a Mon Sep 17 00:00:00 2001
+From: Gooh456 <sendocat456@gmail.com>
+Date: Fri, 10 Jul 2026 22:30:08 +0100
+Subject: [PATCH 3/3] Properties changes
 
 ---
  build.gradle      | 14 +-------------
@@ -9,7 +9,7 @@ Subject: [PATCH] Properties changes
  2 files changed, 2 insertions(+), 14 deletions(-)
 
 diff --git a/build.gradle b/build.gradle
-index 3efb3247..30a76e3f 100755
+index 2f13538c..22c0f7b5 100755
 --- a/build.gradle
 +++ b/build.gradle
 @@ -22,19 +22,7 @@ allprojects {
@@ -34,18 +34,18 @@ index 3efb3247..30a76e3f 100755
  
      sourceCompatibility = targetCompatibility = JavaVersion.toVersion(project.java_version)
 diff --git a/gradle.properties b/gradle.properties
-index caa3abd8..4f2fd2f3 100644
+index 4383c548..c4633610 100644
 --- a/gradle.properties
 +++ b/gradle.properties
 @@ -2,7 +2,7 @@ org.gradle.jvmargs=-Xmx4G
  
  available_loaders=fabric,forge,neoforge,tweaker
  
--mod_version=1.13.0
-+mod_version=1.21.4
+-mod_version=1.17.0
++mod_version=1.21.11
  maven_group=baritone
  archives_base_name=baritone
  
 -- 
-2.45.1.windows.1
+2.55.0.windows.2
 
